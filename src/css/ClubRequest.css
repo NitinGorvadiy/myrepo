@@ -1,0 +1,156 @@
+.bidsall_screen {
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 20px !important;
+  background-color: black !important;
+  height: 100vh !important;
+  overflow: scroll !important;
+}
+
+/* start header */
+
+.bidsallheader {
+  display: flex;
+  flex-direction: row !important;
+  height: 50px !important;
+  width: 100% !important;
+  margin-bottom: 10px;
+}
+
+.bidsallheader1 {
+  width: 10%;
+}
+
+.bidsallheader2 {
+  width: 90%;
+  text-align: center;
+}
+
+.bidsall_h1 {
+  position: relative;
+  right: 15px;
+}
+
+/* end header */
+
+/* alllist */
+.alllist {
+  width: 100%;
+  height: 75px;
+  border-radius: 10px;
+  position: relative;
+  background: linear-gradient(gray, #000);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.alllist_part1 {
+  width: 15%;
+}
+
+.alllist_part1_img {
+  width: 45px;
+  border-radius: 25px;
+  /*border: 1px solid gray;*/
+}
+
+.alllist_part2 {
+  width: 50%;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.alllist_part3 {
+  width: 35%;
+  padding: 5px;
+}
+
+.bidsbtn_all {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.bidsbtn_all1 {
+  width: 50%;
+}
+
+.button_all1 {
+  height: 30px !important;
+  border: 2px solid green !important;
+  border-radius: 25px !important;
+  width: 30px;
+  position: relative;
+  left: 4px;
+}
+
+.button_img {
+  width: 14px;
+  color: green;
+  height: 8px;
+  border-bottom: solid 2px currentColor;
+  border-left: solid 2px currentColor;
+  transform: rotate(-45deg);
+  left: 6px;
+  position: relative;
+  bottom: 2px;
+}
+.button_img2 {
+  font-size: 20px;
+}
+.msg_bids {
+  color: white !important;
+  position: relative;
+  left: 25px;
+  top: 5px;
+}
+.bidsbtn_all2 {
+  width: 50%;
+}
+.button_all2 {
+  height: 30px !important;
+  border: 2px solid #fff !important;
+  border-radius: 25px !important;
+  width: 30px;
+}
+.button_allp {
+  font-size: 10px;
+  color: rgb(149, 138, 138) !important;
+}
+
+/* search start */
+
+.req_search input {
+  border: none;
+  /* background-color: #ee1651; */
+  /* padding-top: 10px; */
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+.req_search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 1rem; */
+  /* padding: 4px; */
+  border-radius: 50px;
+  width: 100%;
+  background: none;
+  border: 1px solid #888;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.req_search-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+/* search end */

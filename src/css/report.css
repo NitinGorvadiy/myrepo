@@ -1,0 +1,93 @@
+/* page base design start */
+
+.page_main_wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    width: 100%;
+    height: 100%;
+    /* min-height: 100vh; */
+}
+
+.page_base_wrapp {
+    width: 90%;
+    max-width: var(--max-width-md);
+    height: 100%;
+    min-height: 100vh;
+    margin: 10px auto;
+}
+
+.page_navbar_wrapp {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.nav_back_btn {
+    height: 20px;
+    object-fit: contain;
+}
+
+.nav_back_wrapp {
+    flex: 0.4;
+    display: flex;
+    align-items: flex-start;
+}
+
+.nav_screen_name {
+    font-size: 1rem;
+    color: var(--color-white);
+    font-family: var(--font-roundedbold) !important;
+    /* margin-left: 22%; */
+    align-self: center;
+    justify-self: center;
+    flex: 0.6;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* page base design end */
+.report_div {
+    padding-top: 10px;
+}
+
+.report_title {
+    color: var(--color-main);
+    /* margin-top: 10%; */
+    position: relative;
+}
+
+.report_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    line-height: 30px;
+}
+textarea
+{
+    background: transparent;
+    color: white;
+}
+.report_details_span {
+    position: relative;
+    padding-top: 0px;
+    left: 15px;
+    color: white;
+    padding-bottom: 10px;
+}
+.report_btn_new
+{
+    background-color: var(--color-main);
+    padding: 10px;
+    width: 60%;
+    color: white;
+    font-family: var(--font-roundedbold);
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 10%;
+}

@@ -1,0 +1,50 @@
+.add_owners
+{
+    background-color: var(--color-main);
+    padding: 10px;
+    width: 20%;
+    color: white;
+    font-family: var(--font-roundedbold);
+    border-radius: 5px;
+    font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.serch_owners {
+    height: 40px;
+    padding: 15px;
+}
+
+.serch_owners::placeholder {
+    color: white;
+    /* background-image: url(../../assets/images/search.png); */
+    background-repeat: no-repeat;
+    background-size: 15px;
+    color: gray;
+    z-index: 999;
+    background-position: 100%;
+}
+.owners_list_add
+{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.owners_img_add
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.owners_name_list
+{
+    border-bottom: 1px solid white;
+    width: 100%;
+}

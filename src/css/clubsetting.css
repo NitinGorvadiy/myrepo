@@ -1,0 +1,184 @@
+/* club_set base design start */
+
+.club_set_main_wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-black);
+    width: 100%;
+    height: 100%;
+    /* min-height: 100vh; */
+}
+
+.club_set_base_wrapp {
+    width: 100%;
+    max-width: var(--max-width-md);
+    height: 100%;
+    min-height: 100vh;
+}
+
+.club_set_navbar_wrapp {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+
+.nav_screen_name_set {
+    font-size: 20px;
+    color: var(--color-white);
+    font-family: var(--font-roundedbold) !important;
+    /* margin-left: 22%; */
+    align-self: center;
+    justify-self: center;
+    flex: 0.6;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.club_set_profile {
+    width: 100%;
+    border-radius: 0px 0px 25px 25px;
+    -webkit-border-radius: 0px 0px 25px 25px;
+    -moz-border-radius: 0px 0px 25px 25px;
+    -ms-border-radius: 0px 0px 25px 25px;
+    -o-border-radius: 0px 0px 25px 25px;
+}
+
+.club_set_btn {
+    height: 20px;
+    object-fit: contain;
+}
+
+.club_set_wrapp {
+    /* flex: 0.4; */
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+    width: 100%;
+    flex-direction: row;
+}
+
+.club_set_1 {
+    width: 40%;
+}
+
+.club_set_2 {
+    width: 60%;
+}
+
+.footer_club_set {
+    position: absolute;
+    bottom: 0px;
+    height: 100px;
+    background-color: rgba(76, 74, 74, 0.64);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: start;
+    flex-direction: row;
+    border-radius: 0px 0px 25px 25px;
+    -webkit-border-radius: 0px 0px 25px 25px;
+    -moz-border-radius: 0px 0px 25px 25px;
+    -ms-border-radius: 0px 0px 25px 25px;
+    -o-border-radius: 0px 0px 25px 25px;
+}
+
+.set_nm_club {
+    color: white;
+    font-size: 20px;
+    font-family: var(--font-roundedbold);
+}
+
+.set_club_pr {
+    position: relative;
+    left: 10px;
+    top: 35px;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    margin-top: 25px;
+    border: 2px solid var(--color-main);
+}
+
+.footer_club_set_1 {
+    width: 0px;
+}
+
+.footer_club_set_2 {
+    width: 100%;
+    text-align: center;
+}
+
+.details_ofset {
+    padding: 25px;
+}
+
+.details_ofset_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.set_club_sub {
+    width: 25px;
+    height: 30px;
+}
+
+.set_club_sub_nm {
+    font: 25px;
+    font-family: var(--font-400);
+}
+
+.set_chek {
+    display: none;
+}
+
+.setlabel {
+    position: relative;
+    width: 60px;
+    height: 25px;
+    display: inline-block;
+    background: #000;
+    border: 1px solid var(--color-main);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    position: absolute;
+    right: 15px;
+}
+
+.setlabel:after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    background: var(--color-main);
+    border-radius: 50%;
+    /* box-shadow: 1px 3px 6px #666666; */
+}
+
+input:checked+label {
+
+    background: black;
+}
+
+input:checked+label:after {
+
+    left: auto;
+    right: 2px;
+}
+
+/* club_set base design end */

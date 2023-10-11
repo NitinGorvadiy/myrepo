@@ -1,0 +1,211 @@
+/* page base design start */
+
+.page_main_wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-black);
+    width: 100%;
+    height: 100%;
+    /* min-height: 100vh; */
+}
+
+.page_base_wrapp {
+    width: 90%;
+    max-width: var(--max-width-md);
+    height: 100%;
+    min-height: 100vh;
+    margin: 10px auto;
+}
+
+.page_navbar_wrapp {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.nav_back_btn {
+    height: 20px;
+    object-fit: contain;
+}
+
+.nav_back_wrapp {
+    flex: 0.4;
+    display: flex;
+    align-items: flex-start;
+}
+
+.nav_screen_name {
+    font-size: 1rem;
+    color: var(--color-white);
+    font-family: var(--font-roundedbold) !important;
+    /* margin-left: 22%; */
+    align-self: center;
+    justify-self: center;
+    flex: 0.6;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* page base design end */
+
+.edit_club_nm {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 10px;
+    height: 80px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit_club_nm1 {
+    width: 20%;
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.edit_club_nm2 {
+    width: 80%;
+    padding: 0px 0px 0px 8px;
+    margin-top: 15px;
+}
+
+.edit_club_profile {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.edit_club_profile2 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+.edit_logo_profile_file {
+    border: 1px dashed white;
+    width: 100%;
+    border-radius: 5px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.edit_club_text {
+    border: none;
+}
+
+.edit_club_profile_img {
+    width: 100%;
+    position: absolute;
+    height: 98px
+}
+.edit_logo_profile_img {
+    width: 100%;
+    position: absolute;
+    height: 98px
+}
+.update_all_photos
+{
+    position: relative;
+}
+.edit_club_profile_sub
+{
+    width: 50%;
+    /* border: 1px dashed white; */
+    border-radius: 5px;
+    flex-direction: column;
+    gap: 10px;
+    /* height: 100px; */
+    border-radius: 5px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.edit_club_profile_sub3
+{
+    width: 50%;
+    border: 1px dashed white;
+    border-radius: 5px;
+    flex-direction: column;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.upload_div_set
+{
+    border: 1px dashed white;
+    width: 50%;
+    border-radius: 5px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+    position: relative;
+}
+.delete_img_club
+{
+    position: absolute;
+}
+.update_all_photos_show
+{
+    position: relative;
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    gap: 20px;
+}
+.preview_image_edit_club
+{
+    width: 100px;
+    height: 100px;
+}
+.delete_img_club
+{
+    width: 15px;
+    right: 2px;
+    top: 0px;
+    cursor: pointer;
+    
+}
+.preview_image_wrapper
+{
+    position: relative;
+   
+}
